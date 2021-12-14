@@ -56,7 +56,7 @@ int main(int argc, char const *argv[]) {
   }
 
   std::cout << std::fixed;
-  std::cout << std::setprecision(3) << totalBikeCost << " " << totalTruckCost << std::endl;
+  std::cout << std::setprecision(3) << totalBikeCost << " " << totalTruckCost;
 
   for (int i = 0; i < storeQty; i++) 
     delete[] graph[i];
